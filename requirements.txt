@@ -1,0 +1,16 @@
+# Core packages
+streamlit>=1.30.0          # main framework
+pandas>=1.5.0              # data processing
+plotly>=5.15.0             # interactive charts
+
+# Streamlit plugins
+streamlit-aggrid>=0.3.4    # interactive table support
+streamlit-extras>=0.3.1    # animation and UI extras
+
+# Report export
+jinja2>=3.1.0              # template rendering
+markdown>=3.4.0            # markdown to HTML
+pillow>=9.2.0              # image processing
+pdfkit>=1.0.0              # HTML to PDF (requires wkhtmltopdf)
+
+# Note: System dependency 'wkhtmltopdf' must be installed manually. See README for details.
